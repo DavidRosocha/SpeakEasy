@@ -1,0 +1,5 @@
+com.example.speakeasy_app.test.app-androidTest-0 C:\Users\david\SpeakEasy-APP\SpeakEasy-APP\app\build\generated\res\resValues\androidTest\debug
+com.example.speakeasy_app.test.app-mergeDebugAndroidTestResources-1 C:\Users\david\SpeakEasy-APP\SpeakEasy-APP\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.speakeasy_app.test.app-mergeDebugAndroidTestResources-2 C:\Users\david\SpeakEasy-APP\SpeakEasy-APP\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.speakeasy_app.test.app-debugAndroidTest-3 C:\Users\david\SpeakEasy-APP\SpeakEasy-APP\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.example.speakeasy_app.test.app-core-1.6.1-4 C:\Users\david\seg2105f24-project-group_project_25\.gradle\caches\8.9\transforms\adbefd3fe557ffce20f08bab878eedce\transformed\core-1.6.1\res

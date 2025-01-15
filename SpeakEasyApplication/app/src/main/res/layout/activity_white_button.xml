@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhiteButton">
+
+    <ImageView
+        android:id="@+id/imageViewWhite"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/_11"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/back_arrow"
+        android:onClick="goBack" />
+
+    <ImageView
+        android:id="@+id/playButtonWhite"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/_1111"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/play_audio"
+        android:onClick="playMP3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+
+        <TextView
+            android:id="@+id/textViewWhitePromptLabel"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.1"
+            android:shadowColor="#55000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="8"
+            android:textColor="#808080"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Prompt:"
+            android:layout_gravity="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/textViewWhitePrompt"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.1"
+            android:shadowColor="#55000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Default prompt for White Button." />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="125dp" />
+
+        <TextView
+            android:id="@+id/textViewWhiteChangePromptLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.1"
+            android:shadowColor="#55000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="8"
+            android:textColor="#808080"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Change prompt to:" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextWhite"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:gravity="center"
+            android:hint="Enter Text here"
+            android:fontFamily="sans-serif-condensed"
+            android:letterSpacing="0.1"
+            android:shadowColor="#55000000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="8"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:background="@android:drawable/edit_text"
+            android:alpha="0.5" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/buttonWhiteSave"
+            android:backgroundTint="#808080"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="@string/save"
+            android:onClick="updateTextView" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/exportButtonWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#232b2b"
+            android:text="Export WAV"
+            android:onClick="uploadWavToESP32" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

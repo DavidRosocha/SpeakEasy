@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.speakeasy_app-mergeDebugResources-2:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\david\\seg2105f24-project-group_project_25\\.gradle\\caches\\8.9\\transforms\\d83bea3448b778adfa8d685d0b3d6530\\transformed\\appcompat-1.7.0\\res\\values-v25\\values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

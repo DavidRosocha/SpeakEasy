@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CP210x USB-to-Serial Bridge (Commonly used with ESP32) -->
+    <usb-device vendor-id="4292" product-id="60000" /> <!-- 0x10C4, 0xEA60 -->
+
+    <!-- CH340 USB-to-Serial Adapter (Alternate for ESP32 boards) -->
+    <usb-device vendor-id="6790" product-id="29987" /> <!-- 0x1A86, 0x7523 -->
+
+    <!-- FTDI USB-to-Serial Adapter (Rare but supported on some ESP32 boards) -->
+    <usb-device vendor-id="1027" product-id="24577" /> <!-- 0x0403, 0x6001 -->
+</resources>

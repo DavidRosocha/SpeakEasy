@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SpeakEasy-APP</string>
+    <string name="back_arrow">back_arrow</string>
+    <string name="buttonFour">buttonFour</string>
+    <string name="buttonThree">buttonThree</string>
+    <string name="buttonTwo">buttonTwo</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_4">Button 4</string>
+    <string name="play_audio">play_audio</string>
+    <string name="save">Save</string>
+    <style name="Base.Theme.SpeakEasyAPP" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.SpeakEasyAPP" parent="Base.Theme.SpeakEasyAPP"/>
+</resources>
