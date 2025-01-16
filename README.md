@@ -11,9 +11,7 @@ This project was specifically designed for a client with cerebral palsy, allowin
 ## What's Included
 This repository contains all the necessary files to recreate the SpeakEasy Communication Device:
 - **ESP32 Firmware:** Located in the `firmware/` folder, written in C++ and utilizes the `Audio.h` library to handle WAV file playback.
-- **Custom PCB Design Files:** Schematics and board layout files for creating the tactile button interface.
 - **Android Application Source Code:** Found in the `android_app/` folder, written in Java using Android Studio. The app enables users to create, update, and export text-to-speech prompts wirelessly to the ESP32 device.
-- **Documentation:** Includes setup instructions, usage details, and project impact analysis.
 
 ---
 
